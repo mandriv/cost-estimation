@@ -1,0 +1,5 @@
+{
+  "inputs": ["Input", "Output", "Inquiry", "File", "FPAdj", "RawFPcounts", "AdjFP"],
+  "output": "Effort",
+  "train_frac": 0.8
+}
