@@ -15,7 +15,7 @@
 @attribute NPDR_AFP numeric
 @attribute NPDU_UFP numeric
 @attribute Resource numeric
-@attribute Dev.Type numeric
+@attribute DevType numeric
 @attribute Duration numeric
 @attribute N_effort numeric
 @attribute Effort numeric

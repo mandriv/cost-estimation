@@ -1,0 +1,27 @@
+{
+  "inputs": [
+    "AFP",
+    "Input",
+    "Output",
+    "Enquiry",
+    "File",
+    "Interface",
+    "Added",
+    "Changed",
+    "Deleted",
+    "PDR_AFP",
+    "PDR_UFP",
+    "NPDR_AFP",
+    "NPDU_UFP",
+    "Resource",
+    "DevType",
+    "Duration"
+  ],
+  "output": "Effort",
+  "train_frac": 0.66,
+  "mating_chance": 0.5,
+  "mutation_chance": 0.2,
+  "number_of_generations": 1000,
+  "population_size": 200,
+  "depth_limit": 20
+}

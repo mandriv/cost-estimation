@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     kemerer-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    15
+Attributes:   7
+              Language
+              Hardware
+              Duration
+              KSLOC
+              AdjFP
+              RAWFP
+              EffortMM
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+EffortMM =
+
+     53.4674 * Hardware +
+      0.389  * AdjFP +
+   -294.1583
+
+Time taken to build model: 0 seconds
+
+
+=== Classifier model for training split (10 instances) ===
+
+
+Linear Regression Model
+
+EffortMM =
+
+     80.9791 * Hardware +
+      0.4557 * AdjFP +
+   -445.5517
+=== Predictions on test split ===
+
+inst#,actual,predicted,error
+1,230.7,318.922,88.222
+2,72,-255.195,-327.195
+3,130.3,168.956,38.656
+4,336.3,326.003,-10.297
+5,287,190.108,-96.892
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.8022
+Mean absolute error                    112.2523
+Root mean squared error                158.6368
+Relative absolute error                130.9954 %
+Root relative squared error            161.2125 %
+Total Number of Instances                5

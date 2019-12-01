@@ -24,4 +24,4 @@ def parse(file, config):
         train_data.append(data.pop(0))
     for _ in range(test_data_size):
         test_data.append(data.pop(0))
-    return (train_data, test_data)
+    return (train_data, test_data, inputs)
